@@ -11,8 +11,8 @@ const NavBar = () => {
     "flex items-center pl-[30px] pr-[30px] h-full no-underline hover:text-blue-600 duration-300";
 
   // styles for active and non-active links
-  const activeStyle = linkStyle + " text-white text-4xl";
-  const nonActiveStyle = linkStyle + " text-gray";
+  const activeStyle = linkStyle + " text-blue-700";
+  const nonActiveStyle = linkStyle + " text-white";
   return (
     <nav>
       <ul className="flex text-2xl justify-end p-10 font-bold shadow-2xl text-blue-700">
