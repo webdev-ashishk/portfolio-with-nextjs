@@ -12,8 +12,8 @@ export default function Home() {
         </ul>
       </div>
       <div className="item border-2 border-red-500 grid w-full">
-        main content!!
-      </div>
+      
+div      </div>
     </main>
   );
 }
