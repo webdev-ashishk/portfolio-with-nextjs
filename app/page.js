@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="border-2 border-lime-200">
-      <div className="border-2 border-red-600 grid place-content-center h-[80vh]">
+    <main className="">
+      <div className="grid place-content-center h-[80vh]">
         <h1 className="text-8xl font-bold">ASHISH KUMAR</h1>
         <div className="flex justify-center">
           <p class="text-2xl">
