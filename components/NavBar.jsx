@@ -11,16 +11,16 @@ const NavBar = () => {
     "flex items-center pl-[30px] pr-[30px] h-full no-underline hover:text-blue-600 duration-300";
 
   // styles for active and non-active links
-  const activeStyle = linkStyle + " text-blue-800";
-  const nonActiveStyle = linkStyle + " text-white";
+  const activeStyle = linkStyle + " text-white text-4xl";
+  const nonActiveStyle = linkStyle + " text-gray";
   return (
     <nav>
-      <ul className="flex gap-10 text-2xl justify-end p-10 font-bold">
+      <ul className="flex text-2xl justify-end p-10 font-bold shadow-2xl text-blue-700">
         <Link
           href="/"
           className={currentRoute === "/" ? activeStyle : nonActiveStyle}
         >
-          <li>Home</li>
+          Home
         </Link>
 
         <Link
@@ -29,7 +29,7 @@ const NavBar = () => {
             currentRoute === "/projects" ? activeStyle : nonActiveStyle
           }
         >
-          <li> Projects</li>
+          Projects
         </Link>
       </ul>
     </nav>
