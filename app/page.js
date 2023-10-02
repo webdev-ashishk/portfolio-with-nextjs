@@ -10,8 +10,8 @@ export default function Home() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
             id="gmail"
-            width={50}
-            height={50}
+            width={20}
+            height={20}
             className="cursor-pointer"
           >
             <Link href="https://google.com">
@@ -28,8 +28,8 @@ export default function Home() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
             id="github"
-            width={50}
-            height={50}
+            width={20}
+            height={20}
             className="cursor-pointer"
           >
             <Link href="https://facebook.com">
@@ -44,8 +44,8 @@ export default function Home() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 72 72"
             id="linkedin"
-            width={50}
-            height={50}
+            width={20}
+            height={20}
             className="cursor-pointer"
           >
             <Link href="https://microsoft.com">
@@ -65,7 +65,7 @@ export default function Home() {
       <div className="item grid w-full">
         <div className="grid place-content-center h-[84vh]">
           <h1 className="text-8xl font-bold">ASHISH KUMAR</h1>
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <p class="text-2xl">
               An experienced full-stack developer , tech instructor and writer.
               <br></br> I enjoy building web-based applications that leaves a
